@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import time, psutil
+import time
 import matplotlib.pyplot as plt
 from utils.io import load_products, load_transactions, to_transaction_list
 from preprocessing.cleaning import clean_transactions, PreprocessReport, standardize_item
